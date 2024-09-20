@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+        <div id="slider">
+                <h2>WILD ANIMALS</h2>
+            <input type="radio" id="image1" checked name="option" class="radio">
+            <div class="slide" id="slide1">
+                <img src="images/lion-desktop.jpg" alt="" id="img1">
+                <h3>LION</h3>
+                <div class="details"><p>Scientific Name : Panthera leo</p><br>
+                <p>Lifespan : 12-16 years</p></div>
+                <label for="image4" class="pre"><i class="fa-solid fa-chevron-left"></i></label>
+                <label for="image2" class="nxt"><i class="fa-solid fa-chevron-right"></i></label>
+            </div>
+            
+            <input type="radio" id="image2" name="option" class="radio">
+            <div class="slide" id="slide2">
+                <img src="images/tiger-desktop.jpg" alt="" id="img2">
+                <h3>Tiger</h3>
+                <div class="details"><p>Scientific Name : Panthera tigris</p><br>
+                    <p>Lifespan : 15-20 years</p></div>
+                <label for="image1" class="pre"><i class="fa-solid fa-chevron-left"></i></label>
+                <label for="image3" class="nxt"><i class="fa-solid fa-chevron-right"></i></label>
+            </div>
+            
+            <input type="radio" id="image3" name="option" class="radio">
+            <div class="slide" id="slide3">
+                <img src="images/elephant-desktop.jpg" alt="" id="img3">
+                <h3>Elephant</h3>
+                <div class="details"><p>Scientific Name : Elephas maximus</p><br>
+                    <p>Lifespan : 50-65 years</p></div>
+                <label for="image2" class="pre"><i class="fa-solid fa-chevron-left"></i></label>
+                <label for="image4" class="nxt"><i class="fa-solid fa-chevron-right"></i></label>
+            </div>
+            
+            <input type="radio" id="image4" name="option" class="radio">
+            <div class="slide" id="slide4">
+                <img src="images/cheeta-desktop.jpg" alt="" id="img4">
+<h3>Cheeta</h3>
+<div class="details"><p>Scientific Name : Acinonyx jubatus</p><br>
+    <p>Lifespan : 10-12 years</p></div>
+                <label for="image3" class="pre"><i class="fa-solid fa-chevron-left"></i></label>
+                <label for="image1" class="nxt"><i class="fa-solid fa-chevron-right"></i></label>
+            </div>
+
+            <nav>
+                <label for="image1"></label>
+                <label for="image2"></label>
+                <label for="image3"></label>
+                <label for="image4"></label>
+            </nav>
+
+        </div>
+
+
+          
+</body>
+
+</html>
